@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../assets/images/logo-sekala.png'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 export default function Navbar() {
   return (
     <div className='font-roboto px-4'>
@@ -15,13 +15,13 @@ export default function Navbar() {
         
         <div className='flex space-x-8 py-4'>
           <div className='text-primary font-bold text-xl'>
-            <Link to="/home">Tentang Kami</Link>
+            <NavLink to="/" className={({ isActive }) => isActive ? 'underline' : ''} >Tentang Kami</NavLink>
           </div>
           <div className='text-primary font-bold text-xl'>
-            <Link to="/fitur">Fitur</Link>
+            <NavLink to="/fitur" className={({ isActive }) => isActive ? 'underline' : ''}>Fitur</NavLink>
           </div>
           <div className='text-primary font-bold text-xl'>
-            <Link to="/kontak">Kontak</Link>
+            <NavLink to="/kontak" className={({ isActive }) => isActive ? 'underline' : ''}>Kontak</NavLink>
           </div>
         </div>
       </div>
