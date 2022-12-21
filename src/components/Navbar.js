@@ -15,13 +15,13 @@ export default function Navbar() {
         
         <div className='flex space-x-8 py-4'>
           <div className='text-primary font-bold text-xl'>
-            <NavLink to="/" className={({ isActive }) => isActive ? 'underline' : ''} >Tentang Kami</NavLink>
+            <NavLink to="/" className={({ isActive }) => isActive ? 'rounded-md bg-primary-second/40 px-2 py-2' : ''} >Tentang Kami</NavLink>
           </div>
           <div className='text-primary font-bold text-xl'>
-            <NavLink to="/fitur" className={({ isActive }) => isActive ? 'underline' : ''}>Fitur</NavLink>
+            <NavLink to="/fitur" className={({ isActive }) => isActive ? 'rounded-md bg-primary-second/40 px-2 py-2' : ''}>Fitur</NavLink>
           </div>
           <div className='text-primary font-bold text-xl'>
-            <NavLink to="/kontak" className={({ isActive }) => isActive ? 'underline' : ''}>Kontak</NavLink>
+            <NavLink to="/kontak" className={({ isActive }) => isActive ? 'rounded-md bg-primary-second/40 px-2 py-2' : ''}>Kontak</NavLink>
           </div>
         </div>
       </div>
