@@ -17,7 +17,7 @@ function Fitur() {
         <Navbar/>
         <div id="fitur" className='min-h-screen'>
           <div className='text-[4rem] text-primary font-bold text-center py-5'>Fitur Sekala Pasopati</div>
-          <div className='flex justify-center'>
+          <div className='flex justify-center h-screen'>
             <div className='w-5/6'>
               <div className='grid grid-cols-2 place-content-center lg:grid-cols-5 gap-10 '>
                 <div className='bg-primary pb-5 px-2 divide-y-4 hover:scale-110 duration-300 divide-white'>
@@ -29,7 +29,7 @@ function Fitur() {
                   </div>
                 </div>
                 <div className='bg-primary pb-5 px-2 divide-y-4 hover:scale-110 duration-300 divide-white'>
-                  <img src={kamar} alt="kamar" />
+                  <img src={kamar} alt="kamar" /> 
                   <div className='flex justify-center pt-5'>
                     <div className='text-3xl px-6 font-bold text-center text-white '>
                       2 Kamar Tidur

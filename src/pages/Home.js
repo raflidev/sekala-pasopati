@@ -48,77 +48,78 @@ function Home() {
             Tipe 30/60 memiliki luas bangunan 30 meter persegi dan luas tanah 60 meter dengan pola ruangan yang ideal untuk keluarga memiliki kesan lebih fungsional dan luas.
           </div>
         </div>
-        <div className='absolute bottom-0 pt-36'>
-          <img src={bgSection} className="" alt=""/>
+        <div className='absolute bottom-0 pt-36 w-full'>
+          <img src={bgSection} className="w-full" alt=""/>
         </div>
       </div>
-
-      <div id="denah" className='min-h-screen bg-gradient-to-b py-5 from-transparent/10 via-sky-200/70 to-transparent/10'>
-        <div className='px-4 lg:px-10'>
-          <div className='block lg:flex items-center min-h-screen'>
-            <div className="w-full lg:w-1/2">
-              <div className='flex justify-end leading-none items-center'>
-                <div className='m-auto w-full lg:w-4/6'>
-                  <div className='text-[4rem] text-primary font-bold'>Denah Rumah</div>
-                  <div className='text-[3rem] text-primary-second font-medium'>Type 6 x 10</div>
-                  <div className='text-2xl text-primary-second leading-tight pt-5'>Mengusung konsep modern minimalis dengan pola ruangan yang ideal untuk keluarga. Sehingga tiap ruangnya terkesan fungsional dan luas. Dilengkapi dengan taman depan dan belakang agar menambah kesan asri dan memaksimalkan sirkulasi udara agar tercipta hunian yang terkesan nyaman dan sehat</div>
+      <div className='bg-gradient-to-b from-sky-200/30 to-white/80'>
+        <div id="denah" className='min-h-screen py-5 bg-sky-200/70'>
+          <div className='px-4 lg:px-10'>
+            <div className='block lg:flex items-center min-h-screen'>
+              <div className="w-full lg:w-1/2">
+                <div className='flex justify-end leading-none items-center'>
+                  <div className='m-auto w-full lg:w-4/6'>
+                    <div className='text-[4rem] text-primary font-bold'>Denah Rumah</div>
+                    <div className='text-[3rem] text-primary-second font-medium'>Type 6 x 10</div>
+                    <div className='text-2xl text-primary-second leading-tight pt-5'>Mengusung konsep modern minimalis dengan pola ruangan yang ideal untuk keluarga. Sehingga tiap ruangnya terkesan fungsional dan luas. Dilengkapi dengan taman depan dan belakang agar menambah kesan asri dan memaksimalkan sirkulasi udara agar tercipta hunian yang terkesan nyaman dan sehat</div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="w-full lg:w-1/2">
-              <div className="flex justify-center items-center">
-                <div className="m-auto w-full lg:w-1/2">
-                    <img src={denah} className="py-5" alt=""  />
+              <div className="w-full lg:w-1/2">
+                <div className="flex justify-center items-center">
+                  <div className="m-auto w-full lg:w-1/2">
+                      <img src={denah} className="py-5" alt=""  />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div id="rincianHarga" className='min-h-screen bg-gradient-to-br from-transparent/10 via-sky-200/70 to-transparent/10'>
-        <div className='text-[4rem] text-center text-primary font-bold py-10'>Rincian Biaya</div>
-        <div className='mx-auto w-full lg:w-1/2 px-5'>
-          <img src={harga} className='py-3' alt="" />
+        <div id="rincianHarga" className='min-h-screen bg-sky-200/70'>
+          <div className='text-[4rem] text-center text-primary font-bold py-10'>Rincian Biaya</div>
+          <div className='mx-auto w-full lg:w-1/2 px-5'>
+            <img src={harga} className='py-3' alt="" />
+          </div>
         </div>
-      </div>
 
-      <div id="site" className='py-10 min-h-screen bg-gradient-to-b from-transparent/10 via-sky-200/70 to-transparent/10'>
-        <div className='px-4 lg:px-10'>
-          <div className='block lg:flex items-center min-h-screen'>
-            <div className="w-full lg:w-1/2">
-              <div className='flex justify-end leading-none items-center'>
-                <div className='m-auto w-full lg:w-4/6'>
-                  <div className='text-[4rem] text-center lg:text-left pb-10 text-primary font-bold'>Site Plan Sekala Pasopati</div>
+        <div id="site" className='py-10 min-h-screen bg-sky-200/70'>
+          <div className='px-4 lg:px-10'>
+            <div className='block lg:flex items-center min-h-screen'>
+              <div className="w-full lg:w-1/2">
+                <div className='flex justify-end leading-none items-center'>
+                  <div className='m-auto w-full lg:w-4/6'>
+                    <div className='text-[4rem] text-center lg:text-left pb-10 text-primary font-bold'>Site Plan Sekala Pasopati</div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="w-full lg:w-1/2">
-              <div className="flex justify-center items-center">
-                <div className="m-auto w-5/6">
-                    <img src={site} className="rounded" alt=""  />
+              <div className="w-full lg:w-1/2">
+                <div className="flex justify-center items-center">
+                  <div className="m-auto w-5/6">
+                      <img src={site} className="rounded" alt=""  />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>  
+        </div>  
 
-      <div id="peta" className='min-h-screen py-10 bg-gradient-to-br from-transparent/10 via-sky-200/70 to-transparent/10'>
-        <div className='px-4 lg:px-20 text-center lg:text-left'>
-          <div className="block lg:flex justify-between">
-            <div className='text-[4rem] text-primary font-bold'>Peta Lokasi</div>
-            <div className='w-full lg:w-3/12 text-xl'>
-              <div>Alamat:</div>
-              <div>
-                Kampung Cigasti Girang Rt1 Rw2.
-                Desa Margaluyu Kec Leles Kab. 
-                Garut Jawa Barat, Indonesia 44152 
+        <div id="peta" className='min-h-screen py-10 bg-sky-200/70'>
+          <div className='px-4 lg:px-20 text-center lg:text-left'>
+            <div className="block lg:flex justify-between">
+              <div className='text-[4rem] text-primary font-bold'>Peta Lokasi</div>
+              <div className='w-full lg:w-3/12 text-xl'>
+                <div>Alamat:</div>
+                <div>
+                  Kampung Cigasti Girang Rt1 Rw2.
+                  Desa Margaluyu Kec Leles Kab. 
+                  Garut Jawa Barat, Indonesia 44152 
+                </div>
               </div>
             </div>
-          </div>
-          <div className="flex justify-center pt-10">
-            <img src={peta} className="w-full lg:w-5/6" alt="" />
+            <div className="flex justify-center pt-10">
+              <img src={peta} className="w-full lg:w-5/6" alt="" />
+            </div>
           </div>
         </div>
       </div>
