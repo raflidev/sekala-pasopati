@@ -14,9 +14,9 @@ function Home() {
       <div className='h-screen bg-gradient-to-b from-sky-100 to-transparent font-roboto'>
       <Navbar/>
         <div>
-          <div className='w-full lg:w-3/6 px-5 lg:px-20 pt-10'>
+          <div className='w-full lg:w-3/6 px-5 lg:px-20 pt-0 lg:pt-10'>
             <div className='relative z-10'>
-              <div className='text-[5rem] lg:text-[7rem] 3xl:text-[8rem] font-bold text-transparent bg-clip-text py-10 leading-none  bg-gradient-to-br from-primary-second via-primary to-primary-second'>
+              <div className='text-[5rem] lg:text-[7rem] 3xl:text-[8rem] font-bold text-transparent bg-clip-text py-4 lg:py-10 leading-none  bg-gradient-to-br from-primary-second via-primary to-primary-second'>
                 Sekala Pasopati
               </div>
               <div className='text-primary text-xl w-full md:w-5/6 lg:w-5/6 3xl:w-7/12'>
