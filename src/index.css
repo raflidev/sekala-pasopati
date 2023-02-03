@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "CircularStd";
+  src: url("./assets/fonts/circular-std.ttf");
+}
+
+@font-face {
+  font-family: "LarkenDemo";
+  src: url("./assets/fonts/LarkenDEMO.otf");
+}

@@ -7,6 +7,8 @@ module.exports = {
     extend: {
       fontFamily:{
         'roboto' : ['Roboto', 'sans-serif'],
+        'circular': ['CircularStd'],
+        'larken': ['LarkenDemo'],
       },
       colors:{
         'primary-second': "#536A6E",
