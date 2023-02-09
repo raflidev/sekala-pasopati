@@ -1,16 +1,19 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import bgHome from '../assets/images/bg-home.png'
 import bgHome2 from '../assets/images/bg-home2.png'
 import bgHome3 from '../assets/images/bg-home3.png'
 import bgHome4 from '../assets/images/bg-home4.png'
-import bgSection from '../assets/images/bg-section.png'
 import logo from '../assets/images/logo.png'
 import logo2 from '../assets/images/logo-qianzy.png'
-import denah from '../assets/images/denah.jpeg'
-import harga from '../assets/images/harga.png'
-import site from '../assets/images/site.jpeg'
 import peta from '../assets/images/peta.png'
+
+import foot1 from "../assets/images/foot1.png"
+import foot2 from "../assets/images/foot2.png"
+
+// icon
+import homeIcon from "../assets/icons/home.png"
+import mapIcon from "../assets/icons/map.png"
+import priceIcon from "../assets/icons/price.png"
 
 function Home() {
   return (
@@ -49,23 +52,40 @@ function Home() {
         </div>
       </div>
 
-      <div className='min-h-screen bg-sky-100'>
+      <div className='min-h-screen bg-sky-100 py-20 lg:py-0'>
         <div className='flex h-screen'>
           <div className="m-auto w-full">
-            <div className="grid gric-cols-1 lg:grid-cols-3 text-center text-3xl font-medium font-circular">
-              <div>Lokasi Strategis</div>
-              <div>Konsep Modern Minimalis</div>
-              <div>Harga Ideal</div>
+            <div className="grid gric-cols-1 lg:grid-cols-3 text-center text-4xl font-medium font-circular space-y-8 lg:space-y-0">
+              <div className='space-y-5'>
+                <div className='flex justify-center'>
+                  <img src={mapIcon} alt=""/>
+                </div>
+                <div>Lokasi Strategis</div>
+              </div>
+              <div className='space-y-5'>
+                <div className='flex justify-center'>
+                  <img src={homeIcon} alt=""/>
+                </div>
+                <div>Konsep Modern Minimalis</div>
+              </div>
+              <div className='space-y-5'>
+                <div className='flex justify-center'>
+                  <img src={priceIcon} alt=""/>
+                </div>
+                <div>Harga Ideal</div>
+              </div>
+              
+              
             </div>
           </div>
         </div>
       </div>
 
-      <div className='min-h-screen font-circular px-10 py-10 text-white bg-primary bg-cover bg-center' style={{backgroundImage: `url(${bgHome2})`}}>
+      <div className='min-h-screen font-circular px-6 lg:px-10 py-10 text-white bg-primary bg-cover bg-center' style={{backgroundImage: `url(${bgHome2})`}}>
         <div className='flex justify-center'>
-          <div className='w-11/12 space-y-14'>
-            <div className='flex items-center'>
-              <div className="w-1/2 space-y-6">
+          <div className='w-full lg:w-11/12 space-y-14'>
+            <div className='block lg:flex items-center space-y-8 lg:space-y-0'>
+              <div className="w-full lg:w-1/2 space-y-6">
                 <div className='text-5xl font-medium'>Lokasi Strategis</div>
                 <div className='space-y-5'>
                   <div className='space-y-3'>
@@ -97,7 +117,7 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className="w-1/2">
+              <div className="w-full lg:w-1/2">
                 <div className="flex justify-center">
                   <button className='text-black bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl rounded-full font-circular'>Mintai Brosur</button>
                 </div>
@@ -117,12 +137,12 @@ function Home() {
         </div>
       </div>
 
-      <div className='relative font-circular h-[80rem] bg-cover bg-center' style={{backgroundImage: `url(${bgHome3})`}}>
+      <div className='relative font-circular h-[40rem] lg:h-[80rem] bg-contain lg:bg-cover bg-bottom lg:bg-center bg-no-repeat lg:bg-repeat' style={{backgroundImage: `url(${bgHome3})`}}>
         <div className='flex justify-center font-circular pt-20'>
-          <div className="w-1/2 text-center text-primary">
-            <div className='text-7xl'>Konsep <br/>Modern Minimalis</div>
-            <div className='text-3xl flex justify-center'>
-              <div className='w-11/12 mt-4'>
+          <div className="w-full lg:w-1/2 text-center text-primary">
+            <div className='text-5xl lg:text-7xl'>Konsep <br/>Modern Minimalis</div>
+            <div className='text-xl lg:text-3xl flex justify-center'>
+              <div className='w-full lg:w-11/12 mt-4'>
                   Memiliki pola ruangan yang maksimal. Menjadikan ruang keluarga menjadi nyaman
               </div>
             </div>
@@ -131,7 +151,30 @@ function Home() {
             <button className='bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl rounded-full font-circular text-primary'>Mintai Katalog</button>
           </div>
         </div>
+      </div>
 
+      <div className='min-h-screen bg-slate-50'>
+        <div className='flex h-screen justify-center font-circular text-primary'>
+          <div className="m-auto w-full py-10 lg:py-0">
+            <div className="block lg:flex justify-center text-center space-x-0 lg:space-x-20 space-y-10 lg:space-y-0">
+              <div className="space-y-5">
+                <div className='text-6xl'>Siap Huni</div>
+                <div className='flex justify-center'>
+                  <img src={foot1} alt="" />
+                </div>
+              </div>
+              <div className="space-y-5">
+                <div className='text-6xl'>Free Kanopi</div>
+                <div className='flex justify-center'>
+                  <img src={foot2} alt="" />
+                </div>
+              </div>
+            </div>
+            <div className='flex justify-center mt-20'>
+              <button className='bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl rounded-full font-circular text-primary'>Hubungi Kami Sekarang</button>
+            </div>
+          </div>
+        </div>
       </div>
       
     </div>
