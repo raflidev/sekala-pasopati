@@ -2,7 +2,6 @@ import React from 'react'
 import logo from '../assets/images/logo-sekala.png'
 import { NavLink } from 'react-router-dom';
 export default function Navbar() {
-
   const showMenu = () => {
     const menu = document.querySelector('#hamburgerMenu');
     menu.classList.toggle('hidden');
