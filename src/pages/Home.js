@@ -20,7 +20,7 @@ function Home() {
     <div>
       <div className='h-[32rem] lg:h-[90rem] bg-gradient-to-b from-sky-50 to-transparent font-larken text-primary bg-contain lg:bg-cover bg-bottom bg-sky-100 bg-no-repeat' style={{backgroundImage: `url(${bgHome})`}}>
         <div className='relative z-10 flex justify-center text-3xl lg:text-5xl text-center pt-6 lg:pt-20'>
-          <div className='space-y-8'>
+          <div className='space-y-4 lg:space-y-8'>
             <div>
               <div className='flex justify-center'>
                   <img src={logo} className="w-32 lg:w-auto" alt="" />
