@@ -18,20 +18,22 @@ import priceIcon from "../assets/icons/price.png"
 function Home() {
   return (
     <div>
-      <div className='h-[90rem] bg-gradient-to-b from-sky-100 to-transparent font-larken text-primary bg-cover bg-left lg:bg-bottom' style={{backgroundImage: `url(${bgHome})`}}>
-        <div className='relative z-10 flex justify-center text-5xl text-center pt-20'>
+      <div className='h-[32rem] lg:h-[90rem] bg-gradient-to-b from-sky-50 to-transparent font-larken text-primary bg-contain lg:bg-cover bg-bottom bg-sky-100 bg-no-repeat' style={{backgroundImage: `url(${bgHome})`}}>
+        <div className='relative z-10 flex justify-center text-3xl lg:text-5xl text-center pt-6 lg:pt-20'>
           <div className='space-y-8'>
             <div>
               <div className='flex justify-center'>
-                  <img src={logo} alt="" />
+                  <img src={logo} className="w-32 lg:w-auto" alt="" />
               </div>
-              <div className='font-medium text-7xl drop-shadow-[0_1.2px_1.2px_rgba(255,255,255)]'>Sekala Pasopati</div>
+              <div className='font-medium text-5xl lg:text-7xl drop-shadow-[0_1.2px_1.2px_rgba(255,255,255)]'>Sekala Pasopati</div>
             </div>
-            <div className='space-y-3'>
+            <div className='space-y-1 lg:space-y-3'>
               <div>Perumahan Subsidi</div>
               <div>Dengan Konsep Modern Minimalis</div>
-              <div className='font-circular text-4xl font-semibold'>Type 30 x 60</div>
-              <a href="https://api.whatsapp.com/send/?phone=6282120190862&text=Halo, Saya tertarik dengan Perumahan Sekala Pasopati, bisa memberi detailnya?" target="_blank" rel="noreferrer" className='bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl rounded-full font-circular'>Hubungi Kami Sekarang</a>
+              <div className='font-circular text-3xl font-semibold'>Type 30 x 60</div>
+              <div>
+                <a href="https://api.whatsapp.com/send/?phone=6282120190862&text=Halo, Saya tertarik dengan Perumahan Sekala Pasopati, bisa memberi detailnya?" target="_blank" rel="noreferrer" className='bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl rounded-full font-circular'>Hubungi Kami Sekarang</a>
+              </div>
             </div>
           </div>
         </div>
