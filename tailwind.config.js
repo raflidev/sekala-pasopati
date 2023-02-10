@@ -14,6 +14,7 @@ module.exports = {
         'primary-second': "#536A6E",
         'primary': "#28515B",
         'light': '#C1D5DA',
+        'light2': '#D6DDE7',
       },
       screens:{
         '3xl': '1920px',
