@@ -31,7 +31,7 @@ function Home() {
               <div>Perumahan Subsidi</div>
               <div>Dengan Konsep Modern Minimalis</div>
               <div className='font-circular text-4xl font-semibold'>Type 30 x 60</div>
-              <button className='bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl rounded-full font-circular'>Hubungi Kami Sekarang</button>
+              <a href="https://api.whatsapp.com/send/?phone=6282120190862&text=Halo, Saya tertarik dengan Perumahan Sekala Pasopati, bisa memberi detailnya?" target="_blank" rel="noreferrer" className='bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl rounded-full font-circular'>Hubungi Kami Sekarang</a>
             </div>
           </div>
         </div>
@@ -42,7 +42,9 @@ function Home() {
           <div className='text-center w-full lg:w-7/12 text-white font-circular py-32 space-y-4'>
             <h2 className='text-6xl'>Sekala Pasopati</h2>
             <p className='text-2xl'>Merupakan kawasan perumahan yang terletak di jantung kota Leles garut. Dengan lokasi yang strategis dan Desain Modern Minimalis, Menciptakan Lingkungan yang nyaman dan sehat bagi pada penghuninya</p>
-            <button className='bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl rounded-full font-circular text-primary'>Saya Tertarik</button>
+            <div className='pt-5'>
+              <a href="https://api.whatsapp.com/send/?phone=6282120190862&text=Halo, Saya tertarik dengan Perumahan Sekala Pasopati, bisa memberi detailnya?" target="_blank" rel="noreferrer" className='bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl rounded-full font-circular text-primary'>Saya Tertarik</a>
+            </div>
           </div>
         </div>
 
@@ -119,7 +121,7 @@ function Home() {
               </div>
               <div className="w-full lg:w-1/2">
                 <div className="flex justify-center">
-                  <button className='text-black bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl rounded-full font-circular'>Mintai Brosur</button>
+                  <a href="https://api.whatsapp.com/send/?phone=6282120190862&text=Halo, Saya tertarik dengan Perumahan Sekala Pasopati, boleh minta brosurnya?" target="_blank" rel="noreferrer" className='text-black bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl rounded-full font-circular'>Mintai Brosur</a>
                 </div>
               </div>
             </div>
@@ -148,7 +150,7 @@ function Home() {
             </div>
           </div>
           <div className='absolute bottom-20'>
-            <button className='bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl rounded-full font-circular text-primary'>Mintai Katalog</button>
+            <a href="https://api.whatsapp.com/send/?phone=6282120190862&text=Halo, Saya tertarik dengan Perumahan Sekala Pasopati, boleh minta katalognya?" target="_blank" rel="noreferrer" className='bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl rounded-full font-circular text-primary'>Mintai Katalog</a>
           </div>
         </div>
       </div>
@@ -171,7 +173,7 @@ function Home() {
               </div>
             </div>
             <div className='flex justify-center mt-20'>
-              <button className='bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl rounded-full font-circular text-primary'>Hubungi Kami Sekarang</button>
+              <a href="https://api.whatsapp.com/send/?phone=6282120190862&text=Halo, Saya tertarik dengan Perumahan Sekala Pasopati, bisa memberi detailnya?" target="_blank" rel="noreferrer" className='bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl rounded-full font-circular text-primary'>Hubungi Kami Sekarang</a>
             </div>
           </div>
         </div>
