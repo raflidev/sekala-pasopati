@@ -58,7 +58,7 @@ function Home() {
       <div className='relative'>
         <div className="flex justify-center bg-primary-second bg-cover" style={{backgroundImage: `url(${bgHome4})`}}>
           <div className='text-center w-full lg:w-7/12 text-white font-circular py-32 space-y-4'>
-            <h2 className='text-6xl'>Sekala Pasopati</h2>
+            <h2 className='text-6xl font-semibold'>Sekala Pasopati</h2>
             <p className='text-2xl'>Merupakan kawasan perumahan yang terletak di jantung kota Leles garut. Dengan lokasi yang strategis dan Desain Modern Minimalis, Menciptakan Lingkungan yang nyaman dan sehat bagi pada penghuninya</p>
             <div className='pt-5'>
               <a href="https://api.whatsapp.com/send/?phone=6282120190862&text=Halo, Saya tertarik dengan Perumahan Sekala Pasopati, bisa memberi detailnya?" target="_blank" rel="noreferrer" className='bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl font-semibold rounded-full font-circular text-primary'>Saya Tertarik</a>
@@ -105,10 +105,10 @@ function Home() {
         <div className='flex justify-center'>
           <div className='w-full lg:w-11/12 space-y-14'>
             <div className='block lg:flex items-center space-y-8 lg:space-y-0'>
-              <div className="w-full lg:w-1/2 space-y-6">
-                <div className='text-5xl font-medium'>Lokasi Strategis</div>
-                <div className='space-y-5'>
-                  <div className='space-y-3'>
+              <div className="w-full lg:w-1/2 space-y-10">
+                <div className='text-5xl'>Lokasi Strategis</div>
+                <div className='space-y-10'>
+                  <div className='space-y-0'>
                     <div className='text-4xl'>Fasilitas Pendidikan</div>
                     <div className='text-2xl font-circular'>
                       <div>TK-SD-SMP Islam Terpadu Siliwangi &plusmn; 1km</div>
@@ -118,7 +118,7 @@ function Home() {
                       <div>MTs Darul Fitri Leles</div>
                     </div>
                   </div>
-                  <div className='space-y-3'>
+                  <div className='space-y-0'>
                     <div className='text-4xl'>Fasilitas Umum</div>
                     <div className='text-2xl'>
                       <div>Puskesmas Leles &plusmn; 1,6 KM</div> 
@@ -128,7 +128,7 @@ function Home() {
                     </div>
                   </div>
 
-                  <div className='space-y-3'>
+                  <div className='space-y-0'>
                     <div className='text-4xl'>Tempat Hiburan</div>
                     <div className='text-2xl'>
                       <div>Alun-Alun Leles &plusmn; 1,6 KM</div>
@@ -157,19 +157,31 @@ function Home() {
         </div>
       </div>
 
-      <div className='relative font-circular h-[40rem] lg:h-[80rem] bg-contain lg:bg-cover bg-bottom lg:bg-center bg-no-repeat lg:bg-repeat' style={{backgroundImage: `url(${bgHome3})`}}>
+      <div className='relative font-circular h-[40rem] lg:h-[80rem] bg-cover bg-bottom lg:bg-center bg-no-repeat lg:bg-repeat' style={{backgroundImage: `url(${bgHome})`}}>
         <div className='flex justify-center font-circular pt-20'>
           <div className="w-full lg:w-1/2 text-center text-primary">
-            <div className='text-5xl lg:text-7xl'>Konsep <br/>Modern Minimalis</div>
-            <div className='text-xl lg:text-3xl flex justify-center'>
+            <div className='text-5xl lg:text-7xl z-20 font-semibold'>Konsep <br/>Modern Minimalis</div>
+            <div className='text-xl lg:text-3xl flex justify-center z-20'>
               <div className='w-full lg:w-11/12 mt-4'>
                   Memiliki pola ruangan yang maksimal. Menjadikan ruang keluarga menjadi nyaman
               </div>
             </div>
           </div>
-          <div className='absolute bottom-20'>
+          <div className='absolute bottom-10 lg:bottom-20 z-20'>
             <a href="https://api.whatsapp.com/send/?phone=6282120190862&text=Halo, Saya tertarik dengan Perumahan Sekala Pasopati, boleh minta katalognya?" target="_blank" rel="noreferrer" className='bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl font-semibold rounded-full font-circular text-primary'>Mintai Katalog</a>
           </div>
+        </div>
+
+        <div className='absolute bottom-0 w-full'>
+          <img src={bgHome3} className="w-full" alt="" />
+        </div>
+
+        <div className='absolute right-0 top-0'>
+          <img src={pkanan} className="w-20 lg:w-52" alt="" />
+        </div>
+
+        <div className='absolute left-0 bottom-52 lg:top-44 z-0'>
+          <img src={pkiri} className="w-20 lg:w-52" alt="" />
         </div>
       </div>
 
