@@ -8,6 +8,9 @@ import logo from '../assets/images/logo.png'
 import logo2 from '../assets/images/logo-qianzy.png'
 import peta from '../assets/images/peta.png'
 
+import pkanan from "../assets/images/pkanan.png"
+import pkiri from "../assets/images/pkiri.png"
+
 import foot1 from "../assets/images/foot1.png"
 import foot2 from "../assets/images/foot2.png"
 
@@ -26,21 +29,29 @@ function Home() {
               <div className='flex justify-center'>
                   <img src={logo} className="w-32 lg:w-auto" alt="" />
               </div>
-              <div className='font-medium text-5xl lg:text-7xl drop-shadow-[0_1.2px_1.2px_rgba(255,255,255)]'>Sekala Pasopati</div>
+              <div className='font-bold text-5xl lg:text-7xl drop-shadow-[0_1.2px_1.2px_rgba(255,255,255)]'>Sekala Pasopati</div>
             </div>
             <div className='space-y-1 lg:space-y-3'>
               <div>Perumahan Subsidi</div>
               <div>Dengan Konsep Modern Minimalis</div>
-              <div className='font-circular text-3xl font-semibold'>Type 30 x 60</div>
+              <div className='font-circular text-2xl lg:text-3xl font-semibold'>Type 30 x 60</div>
               <div>
-                <a href="https://api.whatsapp.com/send/?phone=6282120190862&text=Halo, Saya tertarik dengan Perumahan Sekala Pasopati, bisa memberi detailnya?" target="_blank" rel="noreferrer" className='bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl rounded-full font-circular'>Hubungi Kami Sekarang</a>
+                <a href="https://api.whatsapp.com/send/?phone=6282120190862&text=Halo, Saya tertarik dengan Perumahan Sekala Pasopati, bisa memberi detailnya?" target="_blank" rel="noreferrer" className='bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl font-semibold rounded-full font-circular'>Hubungi Kami Sekarang</a>
               </div>
             </div>
           </div>
         </div>
 
-        <div className='absolute bottom-0 w-full'>
+        <div className='absolute bottom-0 w-full z-20'>
           <img src={home} className="w-full" alt="" />
+        </div>
+
+        <div className='absolute right-0 top-0'>
+          <img src={pkanan} className="w-20 lg:w-52" alt="" />
+        </div>
+
+        <div className='absolute left-0 bottom-32 lg:bottom-64 z-0'>
+          <img src={pkiri} className="w-20 lg:w-52" alt="" />
         </div>
       </div>
 
@@ -50,7 +61,7 @@ function Home() {
             <h2 className='text-6xl'>Sekala Pasopati</h2>
             <p className='text-2xl'>Merupakan kawasan perumahan yang terletak di jantung kota Leles garut. Dengan lokasi yang strategis dan Desain Modern Minimalis, Menciptakan Lingkungan yang nyaman dan sehat bagi pada penghuninya</p>
             <div className='pt-5'>
-              <a href="https://api.whatsapp.com/send/?phone=6282120190862&text=Halo, Saya tertarik dengan Perumahan Sekala Pasopati, bisa memberi detailnya?" target="_blank" rel="noreferrer" className='bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl rounded-full font-circular text-primary'>Saya Tertarik</a>
+              <a href="https://api.whatsapp.com/send/?phone=6282120190862&text=Halo, Saya tertarik dengan Perumahan Sekala Pasopati, bisa memberi detailnya?" target="_blank" rel="noreferrer" className='bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl font-semibold rounded-full font-circular text-primary'>Saya Tertarik</a>
             </div>
           </div>
         </div>
@@ -128,7 +139,7 @@ function Home() {
               </div>
               <div className="w-full lg:w-1/2">
                 <div className="flex justify-center">
-                  <a href="https://api.whatsapp.com/send/?phone=6282120190862&text=Halo, Saya tertarik dengan Perumahan Sekala Pasopati, boleh minta brosurnya?" target="_blank" rel="noreferrer" className='text-black bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl rounded-full font-circular'>Mintai Brosur</a>
+                  <a href="https://api.whatsapp.com/send/?phone=6282120190862&text=Halo, Saya tertarik dengan Perumahan Sekala Pasopati, boleh minta brosurnya?" target="_blank" rel="noreferrer" className='text-black bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl font-semibold rounded-full font-circular'>Mintai Brosur</a>
                 </div>
               </div>
             </div>
@@ -157,7 +168,7 @@ function Home() {
             </div>
           </div>
           <div className='absolute bottom-20'>
-            <a href="https://api.whatsapp.com/send/?phone=6282120190862&text=Halo, Saya tertarik dengan Perumahan Sekala Pasopati, boleh minta katalognya?" target="_blank" rel="noreferrer" className='bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl rounded-full font-circular text-primary'>Mintai Katalog</a>
+            <a href="https://api.whatsapp.com/send/?phone=6282120190862&text=Halo, Saya tertarik dengan Perumahan Sekala Pasopati, boleh minta katalognya?" target="_blank" rel="noreferrer" className='bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl font-semibold rounded-full font-circular text-primary'>Mintai Katalog</a>
           </div>
         </div>
       </div>
@@ -180,7 +191,7 @@ function Home() {
               </div>
             </div>
             <div className='flex justify-center mt-20'>
-              <a href="https://api.whatsapp.com/send/?phone=6282120190862&text=Halo, Saya tertarik dengan Perumahan Sekala Pasopati, bisa memberi detailnya?" target="_blank" rel="noreferrer" className='bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl rounded-full font-circular text-primary'>Hubungi Kami Sekarang</a>
+              <a href="https://api.whatsapp.com/send/?phone=6282120190862&text=Halo, Saya tertarik dengan Perumahan Sekala Pasopati, bisa memberi detailnya?" target="_blank" rel="noreferrer" className='bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl font-semibold rounded-full font-circular text-primary'>Hubungi Kami Sekarang</a>
             </div>
           </div>
         </div>
