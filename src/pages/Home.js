@@ -1,5 +1,6 @@
 import React from 'react'
-import bgHome from '../assets/images/bg-home.png'
+import home from "../assets/images/home.png"
+import bgHome from '../assets/images/background.png'
 import bgHome2 from '../assets/images/bg-home2.png'
 import bgHome3 from '../assets/images/bg-home3.png'
 import bgHome4 from '../assets/images/bg-home4.png'
@@ -18,8 +19,8 @@ import priceIcon from "../assets/icons/price.png"
 function Home() {
   return (
     <div>
-      <div className='h-[32rem] lg:h-[90rem] to-transparent font-larken text-primary bg-contain lg:bg-cover bg-bottom bg-light2 bg-no-repeat' style={{backgroundImage: `url(${bgHome})`}}>
-        <div className='relative z-10 flex justify-center text-3xl lg:text-5xl text-center pt-6 lg:pt-20'>
+      <div className='relative h-[40rem] md:h-screen lg:h-[90rem] to-transparent font-larken text-primary bg-cover bg-bottom bg-light2 bg-no-repeat' style={{backgroundImage: `url(${bgHome})`}}>
+        <div className='relative z-10 flex justify-center text-3xl lg:text-5xl text-center pt-10 lg:pt-20'>
           <div className='space-y-4 lg:space-y-8'>
             <div>
               <div className='flex justify-center'>
@@ -36,6 +37,10 @@ function Home() {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className='absolute bottom-0 w-full'>
+          <img src={home} className="w-full" alt="" />
         </div>
       </div>
 
