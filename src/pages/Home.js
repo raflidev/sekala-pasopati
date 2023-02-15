@@ -10,6 +10,8 @@ import peta from '../assets/images/peta.png'
 
 import pkanan from "../assets/images/pkanan.png"
 import pkiri from "../assets/images/pkiri.png"
+import pkiri2 from "../assets/images/p2kiri.png"
+import pkanan2 from "../assets/images/p2kanan.png"
 
 import foot1 from "../assets/images/foot1.png"
 import foot2 from "../assets/images/foot2.png"
@@ -58,17 +60,20 @@ function Home() {
       <div className='relative'>
         <div className="flex justify-center bg-primary-second bg-cover" style={{backgroundImage: `url(${bgHome4})`}}>
           <div className='text-center w-full lg:w-7/12 text-white font-circular py-32 space-y-4'>
-            <h2 className='text-6xl font-semibold'>Sekala Pasopati</h2>
-            <p className='text-2xl'>Merupakan kawasan perumahan yang terletak di jantung kota Leles garut. Dengan lokasi yang strategis dan Desain Modern Minimalis, Menciptakan Lingkungan yang nyaman dan sehat bagi pada penghuninya</p>
+            <h2 className='text-4xl lg:text-6xl font-semibold'>Sekala Pasopati</h2>
+            <p className='px-3 lg:px-0 text-xl lg:text-2xl'>Merupakan kawasan perumahan yang terletak di jantung kota Leles garut. Dengan lokasi yang strategis dan Desain Modern Minimalis, Menciptakan Lingkungan yang nyaman dan sehat bagi pada penghuninya</p>
             <div className='pt-5'>
               <a href="https://api.whatsapp.com/send/?phone=6282120190862&text=Halo, Saya tertarik dengan Perumahan Sekala Pasopati, bisa memberi detailnya?" target="_blank" rel="noreferrer" className='bg-gradient-to-bl from-yellow-200 to-yellow-400 py-2 px-4 text-2xl font-semibold rounded-full font-circular text-primary'>Saya Tertarik</a>
             </div>
           </div>
         </div>
 
-        <div className='absolute right-0 bottom-0 bg-primary rounded'>
-          <div className='text-xs -mb-8 px-2 text-white font-circular pt-2'>Powered by:</div>
-          <img src={logo2} alt="" className='w-28 -mb-5' />
+        <div className='absolute left-0 bottom-0 z-0'>
+          <img src={pkiri2} className="" alt="" />
+        </div>
+
+        <div className='absolute right-0 bottom-0 z-0'>
+          <img src={pkanan2} className="" alt="" />
         </div>
       </div>
 
@@ -106,11 +111,11 @@ function Home() {
           <div className='w-full lg:w-11/12 space-y-14'>
             <div className='block lg:flex items-center space-y-8 lg:space-y-0'>
               <div className="w-full lg:w-1/2 space-y-10">
-                <div className='text-5xl'>Lokasi Strategis</div>
+                <div className='text-4xl lg:text-5xl'>Lokasi Strategis</div>
                 <div className='space-y-10'>
                   <div className='space-y-0'>
-                    <div className='text-4xl'>Fasilitas Pendidikan</div>
-                    <div className='text-2xl font-circular'>
+                    <div className='text-2xl lg:text-4xl'>Fasilitas Pendidikan</div>
+                    <div className='text-xl lg:text-2xl font-circular'>
                       <div>TK-SD-SMP Islam Terpadu Siliwangi &plusmn; 1km</div>
                       <div>SD Margaluyu 1 dan 2 &plusmn; 750 M</div>
                       <div>SMP Terpadu Bina Insani Leles &plusmn; 400 M</div>
@@ -119,8 +124,8 @@ function Home() {
                     </div>
                   </div>
                   <div className='space-y-0'>
-                    <div className='text-4xl'>Fasilitas Umum</div>
-                    <div className='text-2xl'>
+                    <div className='text-2xl lg:text-4xl'>Fasilitas Umum</div>
+                    <div className='text-xl lg:text-2xl'>
                       <div>Puskesmas Leles &plusmn; 1,6 KM</div> 
                       <div>Masjid Al-Istiqomah Leles &plusmn; 1,2 KM</div>
                       <div>SPBU Haruman Leles &plusmn; 1,7 KM</div>
@@ -129,8 +134,8 @@ function Home() {
                   </div>
 
                   <div className='space-y-0'>
-                    <div className='text-4xl'>Tempat Hiburan</div>
-                    <div className='text-2xl'>
+                    <div className='text-2xl lg:text-4xl'>Tempat Hiburan</div>
+                    <div className='text-xl lg:text-2xl'>
                       <div>Alun-Alun Leles &plusmn; 1,6 KM</div>
                       <div>Cangkang Temple &plusmn; 3,6 KM </div>
                     </div>
@@ -144,7 +149,7 @@ function Home() {
               </div>
             </div>
             <div className='font-circular'>
-              <div className='text-4xl font-medium'>Peta Lokasi</div>
+              <div className='text-2xl lg:text-4xl font-medium'>Peta Lokasi</div>
               <img src={peta} className="w-full" alt="Peta Sekala Pasopati" />
               <div className='text-xl'>
                 <div>Alamat:</div>
@@ -160,7 +165,7 @@ function Home() {
       <div className='relative font-circular h-[40rem] lg:h-[80rem] bg-cover bg-bottom lg:bg-center bg-no-repeat lg:bg-repeat' style={{backgroundImage: `url(${bgHome})`}}>
         <div className='flex justify-center font-circular pt-20'>
           <div className="w-full lg:w-1/2 text-center text-primary">
-            <div className='text-5xl lg:text-7xl z-20 font-semibold'>Konsep <br/>Modern Minimalis</div>
+            <div className='text-4xl lg:text-7xl z-20 font-semibold'>Konsep <br/>Modern Minimalis</div>
             <div className='text-xl lg:text-3xl flex justify-center z-20'>
               <div className='w-full lg:w-11/12 mt-4'>
                   Memiliki pola ruangan yang maksimal. Menjadikan ruang keluarga menjadi nyaman
@@ -187,16 +192,16 @@ function Home() {
 
       <div className='min-h-screen bg-slate-50'>
         <div className='flex h-screen justify-center font-circular text-primary'>
-          <div className="m-auto w-full py-10 lg:py-0">
+          <div className="m-auto w-full py-10 px-4 lg:px-0 lg:py-0">
             <div className="block lg:flex justify-center text-center space-x-0 lg:space-x-20 space-y-10 lg:space-y-0">
               <div className="space-y-5">
-                <div className='text-6xl'>Siap Huni</div>
+                <div className='text-6xl font-bold'>Siap Huni</div>
                 <div className='flex justify-center'>
                   <img src={foot1} alt="" />
                 </div>
               </div>
               <div className="space-y-5">
-                <div className='text-6xl'>Free Kanopi</div>
+                <div className='text-6xl font-bold'>Free Kanopi</div>
                 <div className='flex justify-center'>
                   <img src={foot2} alt="" />
                 </div>
