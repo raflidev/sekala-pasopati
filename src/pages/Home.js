@@ -10,9 +10,7 @@ import peta from '../assets/images/peta.png'
 
 import pkanan from "../assets/images/pkanan.png"
 import pkiri from "../assets/images/pkiri.png"
-import pkiri2 from "../assets/images/p2kiri.png"
 import pkanan2 from "../assets/images/p2kanan.png"
-import pkanan3 from "../assets/images/p3kanan.png"
 
 import foot1 from "../assets/images/foot1.png"
 import foot2 from "../assets/images/foot2.png"
@@ -69,9 +67,6 @@ function Home() {
           </div>
         </div>
 
-        <div className='absolute left-0 bottom-0 z-0'>
-          <img src={pkiri2} className="" alt="" />
-        </div>
 
         <div className='absolute right-0 bottom-0 z-0'>
           <img src={pkanan2} className="" alt="" />
@@ -160,10 +155,6 @@ function Home() {
               </div>
             </div>
           </div>
-        </div>
-
-        <div className='absolute right-0 top-0 z-10'>
-          <img src={pkanan3} className="" alt="" />
         </div>
       </div>
 
