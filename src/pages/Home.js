@@ -12,6 +12,7 @@ import pkanan from "../assets/images/pkanan.png"
 import pkiri from "../assets/images/pkiri.png"
 import pkiri2 from "../assets/images/p2kiri.png"
 import pkanan2 from "../assets/images/p2kanan.png"
+import pkanan3 from "../assets/images/p3kanan.png"
 
 import foot1 from "../assets/images/foot1.png"
 import foot2 from "../assets/images/foot2.png"
@@ -106,8 +107,8 @@ function Home() {
         </div>
       </div>
 
-      <div className='min-h-screen font-circular px-6 lg:px-10 py-10 text-white bg-primary bg-cover bg-center' style={{backgroundImage: `url(${bgHome2})`}}>
-        <div className='flex justify-center'>
+      <div className='relative min-h-screen font-circular px-6 lg:px-10 py-10 text-white bg-primary bg-cover bg-center' style={{backgroundImage: `url(${bgHome2})`}}>
+        <div className='relative flex justify-center z-20'>
           <div className='w-full lg:w-11/12 space-y-14'>
             <div className='block lg:flex items-center space-y-8 lg:space-y-0'>
               <div className="w-full lg:w-1/2 space-y-10">
@@ -159,6 +160,10 @@ function Home() {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className='absolute right-0 top-0 z-10'>
+          <img src={pkanan3} className="" alt="" />
         </div>
       </div>
 
