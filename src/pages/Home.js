@@ -159,10 +159,10 @@ function Home() {
       </div>
 
       <div className='relative font-circular h-[40rem] lg:h-[80rem] bg-cover bg-bottom lg:bg-center bg-no-repeat lg:bg-repeat' style={{backgroundImage: `url(${bgHome})`}}>
-        <div className='flex justify-center font-circular pt-20'>
+        <div className='flex justify-center font-circular pt-36 lg:pt-20'>
           <div className="w-full lg:w-1/2 text-center text-primary">
-            <div className='text-4xl lg:text-7xl z-20 font-semibold'>Konsep <br/>Modern Minimalis</div>
-            <div className='text-xl lg:text-3xl flex justify-center z-20'>
+            <div className='relative text-4xl lg:text-7xl z-20 font-semibold'>Konsep <br/>Modern Minimalis</div>
+            <div className='relative text-xl lg:text-3xl flex justify-center z-20'>
               <div className='w-full lg:w-11/12 mt-4'>
                   Memiliki pola ruangan yang maksimal. Menjadikan ruang keluarga menjadi nyaman
               </div>
@@ -173,7 +173,7 @@ function Home() {
           </div>
         </div>
 
-        <div className='absolute bottom-0 w-full'>
+        <div className='absolute bottom-0 w-full z-10'>
           <img src={bgHome3} className="w-full" alt="" />
         </div>
 
@@ -188,7 +188,7 @@ function Home() {
 
       <div className='min-h-screen bg-slate-50'>
         <div className='flex h-screen justify-center font-circular text-primary'>
-          <div className="m-auto w-full py-10 px-4 lg:px-0 lg:py-0">
+          <div className="m-auto w-full pt-10 lg:pt-0 px-4 lg:px-0 lg:py-0">
             <div className="block lg:flex justify-center text-center space-x-0 lg:space-x-20 space-y-10 lg:space-y-0">
               <div className="space-y-5">
                 <div className='text-6xl font-bold'>Siap Huni</div>
