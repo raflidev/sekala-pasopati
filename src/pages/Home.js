@@ -188,7 +188,7 @@ function Home() {
 
       <div className='min-h-screen bg-slate-50'>
         <div className='flex h-screen justify-center font-circular text-primary'>
-          <div className="m-auto w-full pt-10 lg:pt-0 px-4 lg:px-0 lg:py-0">
+          <div className="m-auto w-full pt-10 pb-4 lg:pb-0 lg:pt-0 px-4 lg:px-0 lg:py-0">
             <div className="block lg:flex justify-center text-center space-x-0 lg:space-x-20 space-y-10 lg:space-y-0">
               <div className="space-y-5">
                 <div className='text-6xl font-bold'>Siap Huni</div>
